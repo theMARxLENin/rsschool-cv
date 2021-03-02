@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Марлен Нурмаков</h1>
+    </header>
+    <main>
+      <h2>Контакты</h2>
+      <p>email: gravefall@mail.ru</p>
+      <h2>О себе</h2>
+      <p>Моя цель - войти в IT. Приоритеты - web и геймдев. Опыт работы в сфере - 0. Проходил множество различных онлайн-уроков и курсов, но без практики нет уверенности в своих силах.
+        Параллельно прохожу обучение в школе Алем.</p>
+      <h2>Навыки</h2>
+      <p>Python, Go, Javascript ES6</p>
+      <h2>Примеры кода</h2>
+      <p>https://github.com/theMARxLENin/Loadout-randomizer - личный проект на Python для рандомизации инвентаря в игре Insurgency Sandstorm.</p>
+      <code>
+        const generateLetters = () => {
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+            for (let i=0; i<120; i++) {
+                let letter = document.createElement('div');
+                let char = characters[Math.floor(Math.random() * 26)]
+                letter.textContent = char
+                if (i < 40) {
+                    letter.setAttribute('style', `font-size: ${i+11}px; font-weight: 300`);
+                } else if (i < 80) {
+                    letter.setAttribute('style', `font-size: ${i+11}px; font-weight: 400`);
+                } else {
+                    letter.setAttribute('style', `font-size: ${i+11}px; font-weight: 600`);
+                }
+                document.body.append(letter);
+            }
+        }
+        </code>
+      <h2>Опыт работы</h2>
+      <h3>Июнь 2019 — Март 2020</h3>
+      <p>IDC-Astana
+      Мастер по ремонту компьютеров</p>
+      
+      <h3>Ноябрь 2018 — Июнь 2019</h3>
+      <p>ТОО "StarPrint"
+      Мастер по ремонту компьютеров</p>
+      
+      <h3>Август 2018 — Октябрь 2018</h3>
+      <p>АО ГМК "Казахалтын"
+      Специалист технического обслуживания</p>
+      
+      <h3>Июль 2017 — Июль 2018</h3>
+      <p>ТОО "Instant Payments"
+      Менеджер по технической поддержке</p>
+      
+      <h3>Апрель 2016 — Июнь 2017</h3>
+      <p>"Eurosport Elite Betting"
+      Заведующий складом</p>
+      
+      <h3>Май 2010 — Апрель 2016</h3>
+      <p>ТОО "Охранная Фирма "Сункар Секьюрити"
+      помощник технического директора</p>
+      
+      <h2>Образование</h2>
+        <p>Прохожу обучение в школе Алем</p>
+        <p>Сертификаты из SoloLearn:</p>
+        <ul>
+            <li><a href="https://www.sololearn.com/Certificate/1073-1130648/jpg/">Python</a></li>
+            <li><a href="https://www.sololearn.com/Certificate/1014-1130648/jpg/">HTML</a></li>
+            <li><a href="https://www.sololearn.com/Certificate/1023-1130648/jpg/">CSS</a></li>
+            <li><a href="https://www.sololearn.com/Certificate/1024-1130648/jpg/">Javascript</a></li>
+        </ul>
+        <p>Сертификаты из Stepik:</p>
+        <ul>
+            <li><a href="https://stepik.org/cert/77527">Python</a></li>
+            <li><a href="https://stepik.org/cert/95274">Python</a></li>
+            <li><a href="https://stepik.org/cert/143117">Linux</a></li>
+            <li><a href="https://stepik.org/cert/210335">HTML и CSS</a></li>
+            <li><a href="https://stepik.org/cert/821702">Golang</a></li>
+        </ul>
+      <h2>Языки</h2>
+      <p>Английский - C1 (практики не было, просто люблю смотреть сериалы в оригинальной озвучке)</p>
+    </main>
+    <footer class="main-footer">
+      <!— Подвал сайта —>
+    </footer>
+  </body>
+</html>
