@@ -14,18 +14,29 @@ h2 { text-align: center; }
 main {
   margin-left: auto;
   margin-right: auto;
-  width: 60em;
+  width: 51em;
   border: 1px solid grey;
   padding: 15px;
   background-color: white;
 }
 
-code {
-  background-color: silver;
-  border: 5px solid gray;
-}
-
 #avatar {
   width: 150px;
   float: right;
+}
+
+footer {
+  text-align: center;
+}
+
+#rs-logo {
+  margin-top: 10px;
+  width: 150px;
+}
+
+details > pre {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
 }
